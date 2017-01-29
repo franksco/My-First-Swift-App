@@ -35,13 +35,13 @@ class ViewController: UIViewController {
     
     @IBAction func show(_ sender: Any) {
         
-        
+        imageView.isHidden = false
         
     }
 
     @IBAction func hide(_ sender: Any) {
         
-        
+        imageView.isHidden = true
         
     }
 }
